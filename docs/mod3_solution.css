@@ -1,0 +1,69 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+header {
+	margin: 0 -15px 0 -15px;
+}
+body {
+	background-color: #999999ff;
+	overflow-x: hidden;
+	margin: 0 15px 0 15px;
+}
+li:hover {
+	background-color: #00000090;
+}
+
+h1 {
+	margin-top: 15px;
+	text-shadow: -2px -2px 6px #FFFFFF;
+}
+#my-nav {
+	background-color: #e0e3e7;
+	border-radius: 0;
+	border: 1px solid black;
+
+}
+/***nav-bar***/
+.dropdown-item{
+	text-align: center;
+
+}
+.nav-link{
+	text-align: center;
+	background-color: #ff55558c;
+	margin-top: 3px;
+}
+.navbar-light .navbar-toggler{
+	border-color: #878181c2;
+}
+
+/***menu styles***/
+.stuff{  
+  background-color: #e6e6e6ff;
+  border: 1px solid black;
+  box-shadow: -10px 10px 8px #4d4d4dff;
+  height: 95%;
+  margin: 15px auto 15px;
+  position: relative;
+  padding: 30px 15px 20px 15px;
+  text-align: left;
+  text-indent: 20px;
+  font-family: helvetica;
+  font-size: 16px;
+
+}
+/*** h3 ***/
+h3{ 
+  padding-top: 5px;
+  height: 40px;
+  width: 100%;
+  background-color: #e40f2ce6;
+  text-align: center;
+  text-indent: 0;
+  font-size: 24px;
+  color: white;
+  position: absolute; 
+  top: 0px;
+  right: 0;  
+}
